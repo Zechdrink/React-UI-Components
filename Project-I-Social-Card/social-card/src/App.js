@@ -2,12 +2,14 @@ import React from 'react';
 import './App.css';
 
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer.js";
-// import HeaderTitle from "./components/HeaderComponents/HeaderTitle.js";
+import CardContainer from "./components/CardComponents/CardContainer.js";
 
 const App = () => {
   return (
-  <HeaderContainer>
-  </HeaderContainer>
+    <div className = "container">
+  <HeaderContainer/>
+  <CardContainer/>
+  </div>
   );
 
 };

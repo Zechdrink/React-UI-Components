@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+
+.headerContainer {
+  
+    display: flex;
+    align-items: top;
+    margin-top: 5px;
+}
+
+.headerText {
+   
+    width: 88%;
+}
+
+h2 {
+    line-height: .4;
+}
+
+
+#logo {
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30%;
+    padding: 9px;
+    color: white !important;
+}
+
+h2 span {
+    color: gray;
+}
