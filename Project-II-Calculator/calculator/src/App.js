@@ -3,10 +3,12 @@ import './App.css';
 
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div className ="App">
+    <CalculatorDisplay/>
       <div className = "firstRow">
         <ActionButton name = "clear"/>
         <NumberButton number = "%"/>
