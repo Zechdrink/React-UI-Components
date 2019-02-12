@@ -3,3 +3,7 @@
     width: 400px;
     border: 15px double black;
 }
+
+.allRows {
+    background: black;
+}

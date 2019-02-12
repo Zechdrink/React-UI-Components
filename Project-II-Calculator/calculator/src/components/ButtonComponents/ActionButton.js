@@ -1,9 +1,9 @@
 import React from 'react';
 import './Button.css';
 
-function ActionButton(prop){
+function ActionButton(props){
     return (
-        <button id = "action-button">{prop.name}</button>
+        <button className =  {`action-button ${props.color}`}>{props.name}</button>
     )
 }
 

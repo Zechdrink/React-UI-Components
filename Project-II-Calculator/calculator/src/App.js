@@ -9,31 +9,33 @@ const App = () => {
   return (
     <div className ="App">
     <CalculatorDisplay/>
+    <div className = "allRows">
       <div className = "firstRow">
-        <ActionButton name = "clear"/>
-        <NumberButton number = "%"/>
+        <ActionButton name = "clear" color = "white"/>
+        <NumberButton number = "%" color ="red"/>
       </div>
       <div className = "secondRow">
-        <NumberButton number = "7"/>
-        <NumberButton number = "8"/>
-        <NumberButton number = "9"/>
-        <NumberButton number = "X"/>
+        <NumberButton number = "7" color = "white"/>
+        <NumberButton number = "8" color = "white"/>
+        <NumberButton number = "9" color = "white"/>
+        <NumberButton number = "X" color ="red"/>
       </div>
       <div className = "thirdRow">
-        <NumberButton number = "4"/>
-        <NumberButton number = "5"/>
-        <NumberButton number = "6"/>
-        <NumberButton number = "-"/>
+        <NumberButton number = "4" color = "white"/>
+        <NumberButton number = "5" color = "white"/>
+        <NumberButton number = "6" color = "white"/>
+        <NumberButton number = "-" color ="red"/>
       </div>
       <div className = "fourthRow">
-        <NumberButton number = "1"/>
-        <NumberButton number = "2"/>
-        <NumberButton number = "3"/>
-        <NumberButton number = "+"/>
+        <NumberButton number = "1" color = "white"/>
+        <NumberButton number = "2" color = "white"/>
+        <NumberButton number = "3" color = "white"/>
+        <NumberButton number = "+" color ="red"/>
       </div>
       <div className = "fifthRow">
-        <ActionButton name = "0"/>
-        <NumberButton number = "="/>
+        <ActionButton name = "0" color = "white"/>
+        <NumberButton number = "=" color ="red"/>
+      </div>
       </div>
     </div>
   );

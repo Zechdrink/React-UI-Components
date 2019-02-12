@@ -3,7 +3,7 @@ import './Button.css';
 
 function NumberButton(props){
 return (
-        <button id = "number-button">{props.number}</button>
+        <button className = {`number-button ${props.color}`}>{props.number}</button>
 )
 } 
 
