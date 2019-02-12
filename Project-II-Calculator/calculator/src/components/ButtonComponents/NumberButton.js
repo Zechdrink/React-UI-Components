@@ -3,7 +3,7 @@ import './Button.css';
 
 function NumberButton(props){
 return (
-        <button id = "numberButton">{props.number}</button>
+        <button id = "number-button">{props.number}</button>
 )
 } 
 
