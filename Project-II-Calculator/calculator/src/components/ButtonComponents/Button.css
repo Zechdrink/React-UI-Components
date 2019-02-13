@@ -1,0 +1,35 @@
+.number-button {
+    width: 25%;
+    height: 100px;
+    font-size: 25px;
+    border: 1px solid black;
+    transition: 500ms ease;
+}
+
+.number-button:active {
+    transform: scale(.9, .9);
+    transition: 500ms ease;
+}
+
+.action-button {
+    width: 75%;
+    height:100px;
+    font-size: 25px;
+    border: 1px solid black;
+    transition: 500ms ease;
+}
+
+.action-button:active {
+    transform: scale(.9, .9);
+    transition: 500ms ease;
+}
+
+.red{
+    background: rgb(95, 24, 24);
+    color: white;
+}
+
+.white {
+    background: rgb(197, 189, 189);
+    color: black;
+}
